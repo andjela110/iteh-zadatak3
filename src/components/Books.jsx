@@ -3,7 +3,6 @@ import OneBook from "./OneBook";
 
 
 const Books = ({ books, onAdd }) => {
-  const [searchValue,setSearchValue]=useState("");
   const [sort, setSort] =
   useState(true);
 function sortAsc(){
